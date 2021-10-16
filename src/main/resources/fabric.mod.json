@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "not-flying",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "not flying",
+  "description": "Removes some of MC's anticheat",
   "authors": [
-    "Me!"
+    "TheEpicBlock"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/TheEpicBlock/not-flying/blob/master/README.md",
+    "sources": "https://github.com/TheEpicBlock/not-flying"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/not-flying/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "nl.theepicblock.notflying.NotFlying"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "not-flying.mixins.json"
   ],
 
   "depends": {
