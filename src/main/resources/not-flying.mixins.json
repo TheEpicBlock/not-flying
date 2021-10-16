@@ -4,6 +4,7 @@
   "package": "nl.theepicblock.notflying.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "DisableFlyCheck"
   ],
   "injectors": {
     "defaultRequire": 1
