@@ -19,5 +19,6 @@ public class DisableFlyCheck {
     private void setNotFlying(CallbackInfo ci) {
         this.floating = false;
         this.vehicleFloating = false;
+        this.floatingTicks = 0;
     }
 }
